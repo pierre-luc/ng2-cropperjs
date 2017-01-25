@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {Ng2CropperjsModule} from "./ng2-cropperjs/ng2-cropperjs.module";
+
 
 @NgModule({
   declarations: [
@@ -12,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    Ng2CropperjsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
